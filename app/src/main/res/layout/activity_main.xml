@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle">
+
+        <EditText
+            android:id="@+id/et_left_digit"
+            style="@style/EditTextStyle"
+            android:hint="位数" />
+
+        <EditText
+            android:id="@+id/et_left_min"
+            style="@style/EditTextStyle"
+            android:maxLength="1"
+            android:hint="最小值" />
+
+        <EditText
+            android:id="@+id/et_left_max"
+            style="@style/EditTextStyle"
+            android:maxLength="1"
+            android:hint="最大值" />
+
+        <TextView
+            android:id="@+id/tv_left_randomNumber"
+            style="@style/TextViewStyle"/>
+
+        <Button
+            android:id="@+id/btn_left_determine"
+            style="@style/ButtonStyle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle">
+
+        <EditText
+            android:id="@+id/et_mid_digit"
+            style="@style/EditTextStyle"
+            android:hint="位数" />
+
+        <EditText
+            android:id="@+id/et_mid_min"
+            style="@style/EditTextStyle"
+            android:maxLength="1"
+            android:hint="最小值" />
+
+        <EditText
+            android:id="@+id/et_mid_max"
+            style="@style/EditTextStyle"
+            android:maxLength="1"
+            android:hint="最大值" />
+
+        <TextView
+            android:id="@+id/tv_mid_randomNumber"
+            style="@style/TextViewStyle"/>
+
+        <Button
+            android:id="@+id/btn_mid_determine"
+            style="@style/ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle">
+        <EditText
+            android:id="@+id/et_right_digit"
+            style="@style/EditTextStyle"
+            android:hint="位数" />
+
+        <EditText
+            android:id="@+id/et_right_min"
+            style="@style/EditTextStyle"
+            android:maxLength="1"
+            android:hint="最小值" />
+
+        <EditText
+            android:id="@+id/et_right_max"
+            style="@style/EditTextStyle"
+            android:maxLength="1"
+            android:hint="最大值" />
+
+        <TextView
+            android:id="@+id/tv_right_randomNumber"
+            style="@style/TextViewStyle"/>
+
+        <Button
+            android:id="@+id/btn_right_determine"
+            style="@style/ButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>
